@@ -1,0 +1,49 @@
+#main-li{
+    padding-left: 50px;
+}
+
+#sec-li{
+    padding-left: 50px;
+}
+
+li{
+    color: red;
+    /*color:#f00;*/
+    /*color: rgb(255,0,225);*/
+}
+
+li span{
+    color: darkblue;
+}
+
+span{
+    color: magenta;/*данный стиль переоределен
+    внутреним из htnl*/
+}
+
+.li-class{
+    color: black;
+    background: #e6e6bd;  /* использовать
+    в исключительных перед ;*/
+}
+
+body{
+    background: #eee !important;
+}
+
+p{
+    color: #333333;
+    background-color: magenta;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    font-style: normal;
+    border:2px dashed darkmagenta;
+    text-shadow: 5px 5px 3px rgba(147, 62, 150, 0.57);
+    -webkit-border-radius: 44px;
+    -moz-border-radius: 44px;
+    border-radius: 44px;
+    /*overflow: scroll; - скролл строки.*/
+    letter-spacing: 11px;
+}
