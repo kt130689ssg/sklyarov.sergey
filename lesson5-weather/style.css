@@ -1,0 +1,93 @@
+html{
+    background-color: white;
+}
+
+body{
+    margin: 20px 10% ;
+    border: 5px solid #2B81AC;
+    padding: 10%;
+    background-color: #3399CC;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cities{
+    margin: 5px;
+}
+
+ol{
+    background: white;
+}
+
+header, footer{
+    height: 75px;
+    font-size: 30px;
+    font-family:"Lucida Sans Unicode";
+    color: white;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+.cities{
+    font-size: 0;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.cities > li{
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+    width: 24%;
+    /*border: 5px solid white;*/
+    margin: 0.5%;
+    min-width: 100px;
+}
+
+h5{
+    font-family:"Lucida Sans Typewriter";
+    font-size: 28px;
+    color: white;
+    box-sizing: border-box;
+    display: block;
+}
+
+.cities > li:hover{
+    opacity: 0.5;
+    cursor: default;
+}
+
+#bigest{
+
+}
+
+#big, #big1{
+    width: 49%;
+
+}
+
+#biggest{
+    width: 99%;
+    background-color: #99CC99;
+}
+
+[id="biggest"]{
+    width: 99%;
+    background-color: #99CC99;
+}
+
+*:focus{
+    outline: 1px solid salmon;
+}
+
+
+
