@@ -1,0 +1,99 @@
+
+
+
+
+body{
+    margin: 0 15%;
+    width: 70%;
+    display: inline-block;
+    background: #F1F1F1;
+    font-size: 0px;
+}
+
+header{
+    align-items: center;
+}
+
+#input1{
+    margin: 5%;
+    font-size: 50px;
+    border: none;
+    width: 60%;
+    vertical-align: middle;
+    color: #C1C1C1;
+    background: #F1F1F1;
+
+}
+
+#seachButton {
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    background: #F1F1F1;
+
+
+}
+
+
+input{
+    box-sizing: border-box;
+}
+
+div > span{
+    display: inline-block;
+    margin: 3%;
+    font-size: 120%;
+    height: 50px;
+    color: #C1C1C1;
+}
+
+ul{
+    margin-top: 5px;
+    padding: 30px 0;
+    display: inline-block;
+}
+
+img{
+    display: inline-block;
+    padding: 3%;
+    font-size: 0px;
+}
+
+.box > li{
+    display: inline-block;
+    margin: 1%;
+    width: 98%;
+    height: 70px;
+    background: #EBEBED;
+}
+
+/*.string img{*/
+    /*vertical-align: middle;*/
+/*}*/
+
+.SText{
+    vertical-align: 125%;
+    display: inline-block;
+}
+
+div{
+    display: inline-block;
+    box-sizing: border-box;
+    width: calc(100%/3);
+    font-size: 16px;
+}
+
+div:last-child{
+    margin-right: 0;
+}
+
+li:hover{
+    background:  rgba(118,117,128,0.1);
+    color: #ff5173;
+
+}
+
+#input1:hover{
+    background:  rgba(118,117,128,0.1);
+    color: #ff5173;
+}
