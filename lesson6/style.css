@@ -1,13 +1,11 @@
 
 
-
-
 body{
     margin: 0 15%;
     width: 70%;
     display: inline-block;
     background: #F1F1F1;
-    font-size: 0px;
+    font-size: 0;
 }
 
 header{
@@ -22,6 +20,7 @@ header{
     vertical-align: middle;
     color: #C1C1C1;
     background: #F1F1F1;
+    /*outline: none;*/
 
 }
 
@@ -30,8 +29,6 @@ header{
     width: 100px;
     vertical-align: middle;
     background: #F1F1F1;
-
-
 }
 
 
@@ -56,7 +53,7 @@ ul{
 img{
     display: inline-block;
     padding: 3%;
-    font-size: 0px;
+    font-size: 0;
 }
 
 .box > li{
