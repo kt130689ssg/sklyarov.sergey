@@ -1,0 +1,40 @@
+.container{
+    font-size: 0;
+    margin: 50px auto 0;
+    width: 80%;
+    background: #cccccc;
+}
+
+.column{
+    font-size: 16px;
+    display: inline-block;
+    width: 30.33%;
+    vertical-align: top;
+    margin-left: 3%;
+}
+
+
+ul{
+    padding: 0;
+}
+
+li{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.avatar{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #352bac;
+    vertical-align: middle;
+}
+
+li > *{
+    vertical-align: middle;
+}
+
+.column:first-child .avatar{
+    border-radius: 50%;
+}
