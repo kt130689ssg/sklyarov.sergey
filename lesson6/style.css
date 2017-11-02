@@ -88,6 +88,8 @@ div:last-child{
 li:hover{
     background:  rgba(118,117,128,0.1);
     color: #ff5173;
+    zoom: 1.2;
+    cursor: pointer;
 
 }
 

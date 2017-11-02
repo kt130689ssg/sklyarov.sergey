@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+    url('fonts/playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('fonts/lato-light-webfont.woff2') format('woff2'),
+    url('fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+    font-family: 'playfair_displayregular';
+    font-size: 42px;
+    font-weight: 500;
+}
+
+p{
+    font-family: 'latolight';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 200%;
+}
+
+#firstP:first-letter{
+    font-family: 'playfair_displayregular';
+    font-size: 110px;
+    display: block;
+    margin: 0 20px 0 0;
+    float: left;
+    line-height:0.7;
+
+}
+
+blockquote{
+    font-family: 'latolight';
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 0px;
+    line-height: 200%;
+}
+
+body{
+    width: 70%;
+    padding: 10px 10%;
+    margin: 7.5%;
+    padding: 7.5%;
+    box-shadow: 5px -4px 30px 0px rgba(9, 9, 7, 0.4);
+
+}
+
+div{
+    height: 50px;
+    width: 20%;
+    border: 1px solid #eaa258;
+    text-align: center;
+    display: table;
+}
+div *{
+    color: #eaa258;
+    vertical-align: middle;
+    display: table-cell;
+}
