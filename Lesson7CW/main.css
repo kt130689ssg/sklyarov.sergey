@@ -1,0 +1,98 @@
+
+@font-face {
+    font-family: 'FuturaPT Heawy';
+    src: url('fonts/FuturaPT-Heavy.woff') format('woff'),
+    url('fonts/FuturaPT-Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova Regular';
+    src: url('fonts/ProximaNova-Regular.woff') format('woff'),
+    url('fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+main  span{
+    font-family: 'ProximaNova Regular', sans-serif;
+    color: #B5B5B5;
+}
+
+h1{
+    font-family: "FuturaPT Heawy", sans-serif;
+    margin: 10px 0 0;
+    color: #2a2a2a;
+}
+
+#cite{
+    font-family: Georgia;
+    font-style: italic;
+    color: #8F8F8F;
+}
+
+#head1{
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    z-index: 1;
+    width: 600px;
+    height: 120px;
+    background: #181818;
+    color: white;
+    padding: 40px 0 0 40px;
+    margin: 0px;
+}
+
+.right p:first-child{
+    font-family: "ProximaNova Regular";
+    font-size: 15px;
+    margin: 0px;
+    color: #868686;
+}
+
+.right p:last-of-type{
+    font-family: "ProximaNova Regular";
+    font-size: 48px;
+    margin: 0px;
+}
+
+hr{
+    border: 1px solid #303030;
+}
+
+#head2 {
+    font-family: "FuturaPT Heawy";
+    width: 550px;
+    height: 50px;
+    background: #F8BE2C;
+}
+
+main span{
+   font-size: 20px;
+}
+
+main h1{
+   font-size: 78px;
+}
+
+html{
+    background: #464F54;
+}
+body{
+    width: 70%;
+    background: #fff;
+    margin: 7.5%;
+    padding: 7.5%;
+}
+
+.right{
+    float: right;
+}
+
+main{
+    padding-top: 250px;
+}
+
+
