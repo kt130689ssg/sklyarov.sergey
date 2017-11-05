@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../Fonts/SegoeUI-Bold.woff2') format('woff2'),
+    url('../Fonts/SegoeUI-Bold.woff') format('woff');
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+
 header{
     background-color: #23232e;
     min-height: 98vh;
@@ -12,6 +22,8 @@ body {
 }
 
 header h1{
+    /*font: 80px,    ;*/
+
     font-family: "Segoe UI";
     font-size: 80px;
     font-weight: bold;
@@ -48,7 +60,7 @@ header p{
 
 header a{
     display: block;
-    margin-top: 235px;
+    margin-top: 10%;
 }
 
 main{
@@ -61,7 +73,7 @@ main{
 
 main section{
     display: block;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     visibility: hidden;
 }
 
@@ -81,7 +93,7 @@ footer{
 
 footer div{
     display: inline-block;
-    width: 30%;
+    width: 32%;
     margin: 0;
 }
 
@@ -95,10 +107,17 @@ main div{
     text-align: left;
 }
 
+div h2{
+    width: 80%;
+    margin: auto 0;
+    font-size: 22px;
+}
+
 h2 + p{
     margin-left: 0;
     text-align: left;
     font-size: 18px;
+    text-align: justify;
 }
 
 
