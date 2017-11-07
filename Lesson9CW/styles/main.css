@@ -41,7 +41,7 @@ header{
     display: inline-block;
     vertical-align: top;
     padding-top: 50px;
-    padding-left: 30%;
+    padding-left: 45vw;
 }
 
 #nav li{
@@ -59,12 +59,12 @@ li a{
 }
 
 header div{
-    padding: 100px auto;
+    padding: 30vh auto;
     text-align: center;
 }
 
 div p:first-of-type{
-    padding-top: 200px;
+    padding-top: 25vh;
     margin-bottom: 0;
     font-family: 'Myriad Pro';
     font-size: 48px;
@@ -83,17 +83,163 @@ div p:last-of-type{
 
 div a{
     display: block;
-    padding-top: 200px;
+    padding-top: 35vh;
 }
 
 section1{
     display: block;
     min-height: 100vh;
-    background-color: yellow;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#secondMenu{
+    margin: 0;
+    padding: 0;
 }
 
 #secondMenu li{
+    margin: 50px 5px;
     display: inline-block;
+    font-family: "Lato Bold";
+    font-size: 16px;
+    background: #eaeaea;
+    width: 150px;
+    height: 30px;
+    color: #485a66;
+    text-align: center;
+    vertical-align: middle;
 }
 
-{}
+#secondMenu li:hover{
+    background: #00bf6e;
+    color: white;
+}
+
+#imageBox{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#imageBox img{
+    vertical-align: top;
+    padding: 10px;
+}
+
+#imageBox img:nth-child(3){
+    margin-top: -135px;
+}
+
+section2 div{
+    min-height: 50vh;
+    background: #525d67 url(../image/men-computer.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+section2 div{
+    color: white;
+}
+
+#sectionAbout h1{
+    padding-top: 10vh;
+    margin-left: 60%;
+    font-family: 'Myriad Pro';
+    font-size: 30px;
+}
+
+#sectionAbout h2{
+    margin-left: 60%;
+    font-family: 'Myriad Pro';
+    font-size: 22px;
+}
+
+#sectionAbout p{
+    margin-left: 60%;
+    width: 30%;
+    font-family: 'Myriad Pro';
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+#sectionAbout a{
+    padding-top: 50px;
+    margin-left: 60%;
+}
+
+section3{
+    min-height: 50vh;
+    width: 100%;
+    background: #f8f8f8;
+    text-align: center;
+    display: block;
+}
+
+section3 h1{
+    margin: 0;
+    padding-top: 3vh;
+    color: #00bf6e;
+    font-family: 'Myriad Pro';
+}
+
+input + span{
+    visibility: hidden;
+}
+
+form .textI{
+    padding-left: 10px;
+    width: 190px;
+    height: 25px;
+    margin-top: 3vh;
+    border: 1px solid #334755;
+    color: #a8a7a7;
+}
+
+form textarea{
+    padding-left: 10px;
+    margin-top: 3vh;
+    width: 440px;
+    border: 1px solid #334755;
+    color: #a8a7a7;
+
+}
+
+form #mass{
+    margin-top: 3vh;
+    width: 450px;
+    height: 35px;
+    background: #00bf6e;
+    color: white;
+    font-family: 'Myriad Pro';
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+footer{
+    min-height: 20vh;
+    background: #334755;
+    display: block;
+
+}
+
+footer span{
+    display: inline-block;
+    padding-top: 95px;
+    float: left;
+    color: #d8dbdd;
+    margin-left: 10%;
+    font-family: 'Myriad Pro';
+}
+
+footer img{
+    display: inline-block;
+    float: right;
+    padding-top: 65px;
+    padding-right: 30px;
+
+}
+
+
+
+
+

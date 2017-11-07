@@ -1,0 +1,170 @@
+@font-face {
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+}
+
+html{
+    background: #282828;
+}
+
+
+body{
+    display: block;
+    width: 1500px;
+    background: #ededed;
+    margin: 10px auto ;
+}
+
+header{
+    display: inline-block;
+}
+
+header h1{
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+header ul{
+    display: inherit;
+    padding: 0;
+    margin-left: 570px;
+}
+
+header li{
+    display: inherit;
+    padding-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+div h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 130px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0px;
+    line-height: 140px;
+}
+
+#imgMenu{
+    width: 50px;
+    height: 50px;
+}
+
+#first{
+    display: inline-block;
+}
+
+#first div{
+    width: 615px;
+    float: left;
+    text-align: right;
+    padding-left: 150px;
+    padding-top: 40px;
+}
+
+#bigWiev p{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Roboto', sans-serif;
+    color: #515151;
+}
+
+#bigWiev span{
+    font-size: 24px;
+    color: darkred;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#first img{
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+#second{
+    display: block;
+    width: 1200px;
+    height: 1200px;
+    background: white;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+#second h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    padding-top: 80px;
+    margin: 0;
+}
+
+#second p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7f7f80;
+    padding-bottom: 80px;
+}
+
+#main img{
+    padding: 0 36px 36px 0;
+}
+
+#three{
+    text-align: center;
+}
+
+#three h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    padding-top: 80px;
+}
+
+#three p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5f5f5f;
+}
+
+#three input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10%;
+    margin: 30px 500px;
+    text-align: center;
+    /*margin: 30px auto 0;*/
+}
+
+footer{
+    display: block;
+    text-align: center;
+}
+
+footer img{
+    display: inline-block;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+footer span{
+    display: block;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px
+    color: #9c9c9c;
+}
+
+#company{
+    display: inline-block;
+    color: black;
+}
