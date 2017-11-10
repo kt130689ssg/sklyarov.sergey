@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+
+.relative-block{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    background: #333333;
+    margin: 20px;
+}
+
+.item:first-child{
+    float: left;
+    background: #ff0000;
+}
+
+.item:nth-child(2){
+    /*flr*/
+    float: right;
+    background: darkblue;
+}
+
+.dib{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #999999;
+    margin: 10px;
+}
+
+.cleaner{
+    display: block;
+    clear: both;
+}
+
+.item:nth-child(4){
+    /*flr*/
+    float: left;
+    background: darkgreen;
+}
+
+.item:nth-child(5){
+    /*flr*/
+    float: right;
+    background: darkgreen;
+}
+
+section:before, section:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.item.fn{
+    float: none;
+}
+
+.item.flr{
+    float: right;
+    background: #00ff00;
+}
+
+.item.fll{
+    float: left;
+    background: #ff00ff;
+}
+
+.el-fll{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    float: left;
+    margin: 30px;
+    font-size: 40px;
+}
+
+.my-photo{
+    width: 300px;
+    height: 300px;
+    background: #cccccc;
+    float: left;
+    margin: 20px;
+}
+
+.description{
+    font-size: 40px;
+}
+
+.board{
+    width: 600px;
+    height: 600px;
+}
+
+.col{
+    float: left;
+    height: 100%;
+    width: 12.5%;
+}
+
+.cell{
+    height: 12.5%;
+    background: #333333;
+    margin-top: 100%;
+}
+
+.col:nth-child(even) .cell{
+    margin-top: 0;
+    margin-bottom: 100%;
+}
+
+
