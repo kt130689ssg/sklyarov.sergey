@@ -127,6 +127,7 @@ div h1{
 
 #main img{
     padding: 0 36px 36px 0;
+
 }
 
 #main img:hover{
@@ -135,7 +136,7 @@ div h1{
 
 #clock{
     position: absolute;
-    left: 49px
+    left: 49px;
 }
 
 #three{
@@ -220,6 +221,9 @@ footer span{
     font-weight: 900;
     font-size: 28px;
     margin: 20px;
+}
+.span:hover{
+    visibility: hidden;
 }
 
 .navigate{
