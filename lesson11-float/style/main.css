@@ -94,6 +94,7 @@ section:before, section:after{
 .board{
     width: 600px;
     height: 600px;
+     border: 6px double saddlebrown;
 }
 
 .col{

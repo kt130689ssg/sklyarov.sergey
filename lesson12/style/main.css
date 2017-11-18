@@ -1,0 +1,235 @@
+@font-face {
+    font-family: "MuseoSansRegular";
+    url("../fonts/MuseoSansRegular.woff") format("woff"),
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+html {
+    height: 100%;
+}
+body {
+    padding-top: 60px;
+}
+
+body {
+    margin: 0;
+    background: url("../img/mainBg.png") no-repeat;
+    background-size: cover;
+}
+
+.product{
+    width: 690px;
+    height: 390px;
+    background-color: #111a28;*
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+    padding-top: 20px;
+
+}
+
+.product:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255,255,255,.5);
+    z-index: -2;
+}
+
+.product:before{
+    width: 110%;
+    height: 90%;
+    top: 5%;
+    left: -5%;
+}
+
+.logo{
+  position: relative;
+    margin-left: 20px;
+}
+
+.left-section{
+    float: left;
+    height: 330px;
+    width: 440px;
+    float: left;
+    padding-top: 65px;
+}
+
+.left-section__img img{
+    padding-left: 35px;
+    padding-bottom: 65px;
+}
+
+.main-baton{
+    padding-left: 175px;
+
+}
+
+.main-baton a{
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.main-baton a:hover{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.right-section{
+    width: 245px;
+    height: 330px;
+    float: right;
+}
+
+.right-section__title{
+    font-family: "MuseoSansRegular", sans-serif;
+    font-size: 24px;
+    color: #636971;
+}
+
+.right-section__about{
+    font-family: "MuseoSansRegular", sans-serif;
+    font-size: 14px;
+    color: #242c39;
+}
+
+.size{
+    font-size: 0;
+}
+
+.size__check{
+    margin: 10px 10px 10px 0;
+    width: 70px;
+    height: 32px;
+    font-family: "MuseoSansRegular", sans-serif;
+    font-size: 18px;
+    color: #595f68;
+    display: inline-block;
+    border: 1px solid #595f68;
+    box-sizing: border-box;
+    padding: 4px 0px 4px 10px;
+
+}
+
+.reiting{
+    width: 100%;
+    height: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.reiting__star{
+    width: 9px;
+    height: 9px;
+    text-decoration: none;
+}
+
+.reiting__star:hover{
+    border: 1px solid white;
+}
+
+.add{
+    width: 184px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid #595f68;
+    margin: 10px 5px 5px 0;
+    color: #595f68;
+    background: #3e4550;
+}
+
+.product-rating {
+    margin: 15px 0 0 0;
+}
+.product-rating-stars {
+    margin: 0 0 0 10px;
+    padding: 0;
+    display: inline-block;
+}
+.product-rating__star {
+    display: inline-block;
+}
+.product-rating__star a {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url("../img/starY.png");
+    color: #00bf6e;
+}
+
+.menu{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font: 14px 'Verdana';
+    /*width: 100px;*/
+    /*height: 30px;*/
+    /*border: 1px solid black;*/
+}
+
+.menu:after{
+    display: block;
+    content: '';
+    clear: both;
+    float: none;
+}
+
+ul.menu > li{
+    float: left;
+    position: relative;
+}
+
+ul.menu > li > a{
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #5b6cff;
+    text-decoration: none;
+}
+
+    ul.menu > li >a:hover{
+        background-color: #000000;
+    }
+
+    ul.submenu{
+        display: none;
+        position: absolute;
+        width: 100px;
+        top: 37px;
+        left: 0;
+        background-color: white;
+        border: 1px solid red;
+    }
+
+    ul.submenu > li{
+        display: block;
+    }
+
+    ul.submenu > li > a{
+        display: block;
+        padding: 10px;
+        color: white;
+        background-color: red;
+        text-decoration: none;
+    }
+
+    ul.submenu > li > a:hover{
+        text-decoration: underline;
+    }
+
+    ul.menu > li:hover > ul.submenu{
+        display: block;
+    }
+
+
+.product-rating__star--active a {
+    background: url("../img/starY.png");
+}
+
+
