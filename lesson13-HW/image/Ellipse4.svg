@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="10" height="10" viewBox="0 0 10 10">
+  <defs>
+    <style>
+
+      .cls-2 {
+        fill: #29e3ea;
+      }
+    </style>
+  </defs>
+  <ellipse id="ellipse-1" class="cls-2" cx="5" cy="5" rx="5" ry="5"/>
+</svg>

@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'museo_sans_cyrl100';
+    src: url('../fonts/museosanscyrl-webfont.woff2') format('woff2'),
+    url('../fonts/museosanscyrl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{
+    max-height: 100%;
+}
+
+body{
+    min-height: 100%;
+    background: url("../image/DocBG.png") center/cover no-repeat;
+    /*background-size: cover;*/
+    /*background-position: center;*/
+}
+
+.product{
+    width: 690px;
+    height: 390px;
+    background: #152335;
+    border-radius: 5px;
+    margin: 50px auto 0;
+}
+
+.product_login{
+    float: right;
+}
+
+.product_login a{
+    position: relative;
+    text-decoration: none;
+    color: red;
+    top: 10px;
+    right: 10px;
+
+
+}
+
+
+.colum1{
+    width: 440px;
+    height: 250px;
+    float: left;
+}
+
+.product__title{
+    position: relative;
+    padding: 23px 26px 0;
+}
+
+.colum1__MainProduct{
+    padding: 67px 0 70px 35px;
+}
+
+.ListP{
+    display: block;
+    text-decoration: none;
+    padding-left: 180px;
+    margin: 0;
+    line-height: 10px;
+    font-size: 0;
+
+
+}
+
+.ListP > li{
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 7px;
+    position: relative;
+}
+
+.ListP > li:hover{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    /*border-collapse: collapse;*/
+}
+
+.colum2{
+    width: 245px;
+    height: 250px;
+    float: left;
+}
+
+.colum2__title{
+    font-size: 24px;
+    color: #c7c9cb;
+    font-family: 'museo_sans_cyrl100';
+    margin: 0;
+    padding-bottom: 18px;
+}
+
+.colum2__about{
+    font-size: 14px;
+    color: #565e69;
+    font-family: 'museo_sans_cyrl100';
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.gReiting{
+    width: 50px;
+    height: 20px;
+    float: right;
+    /*display: block;*/
+    width: 100%;
+    margin-bottom: 10px;
+    padding-right: 160px;
+}
+
+.gReiting:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.reiting{
+    display: block;
+    padding: 0px 0px 25px;
+    margin: 0;
+
+}
+
+.stars{
+    display: inline-block;
+    float: right;
+    padding-right: 5px;
+}
+
+.stars:hover, ul .stars:hover ~ .stars{
+    background: red;
+}
+
+
+.checkSize{
+    width: 200px;
+    height: 40px;
+    padding-bottom: 25px;
+}
+
+.batton{
+    width: 80px;
+    height: 30px;
+    color: #8a8e95;
+    border: 1px solid #8a8e95;
+    padding: 5px auto;
+    font-family: 'museo_sans_cyrl100';
+    font-size: 16px;
+    background-color: #152335;
+    margin-right: 5px;
+}
+
+
+
+
+.colum2__Send{
+    width: 185px;
+    height: 40px;
+    background-color: #2a3545;
+    color: #8a8e95;
+    border: 1px solid #8a8e95;
+    padding: 5px auto;
+    font-family: 'museo_sans_cyrl100';
+    font-size: 18px;
+}
+
+
+
+
+
+.
+
+
+
