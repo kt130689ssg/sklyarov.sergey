@@ -1,0 +1,38 @@
+label{
+    position: relative;
+    display: block;
+}
+
+label:before, label:after{
+    content: '';
+    position: absolute;
+    display: block;
+}
+
+label:before{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 30px;
+    background: #3c4955 url("../../lesson13-HW/image/Ellipse1.svg");
+}
+
+/*.name:before{*/
+    /*background-image: url("");*/
+/*}*/
+
+/*.mess{*/
+    /*background-image: url("");*/
+    /*картинку выровнять backgroun-position*/
+/*}*/
+
+textarea{
+    display: block;
+}
+
+label:after{
+    border: 6px solid transparent;
+    border-left-color: #3c4955;
+    top: 6px;
+    left: 30px;
+}

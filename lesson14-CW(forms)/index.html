@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+    <body>
+        <form action="/" method="get">
+            <label for="name">Your name:</label>
+            <input type="text"  id="name" name="your name" tabindex="1">
+
+            <label >Your sourname: </br>
+            <input type="text" name="surname" tabindex="2">
+            </label>
+
+            <input type="email" maxlength="10" minlength="8" placeholder="Email" name="email" value="mail@gmail.com" tabindex="4">
+
+            <br>
+            <br>
+            <br>
+            <input type="password" placeholder="Your password" tabindex="5">
+
+            <input type="submit" value="Send ouf data" tabindex="6">
+
+            <br>
+            <br>
+
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment" tabindex="3"></textarea>
+
+            <br>
+            <br>
+            <input type="checkbox" name="chb1" id="chb-1" checked="checked">
+            <label for="chb-1" class="styled_chb">checkbox text 1</label>
+            <input type="checkbox" name="chb1" id="chb-2" checked="checked">
+            <label for="chb-2" class="styled_chb">checkbox text 2</label>
+            <input type="checkbox" name="chb1" id="chb-3">
+            <label for="chb-3" class="styled_chb">checkbox text 3</label>
+
+            <br>
+            <br>
+            
+            <!--label*2>input[type=radio]+{label radio $}-->
+            <label>
+                <input type="radio" name="radi-1">
+                label radio 1
+            </label>
+            <label>
+                <input type="radio" name="radi-1" checked="checked">
+                label radio 2
+            </label>
+
+            <br>
+            <br>
+
+            <select name="select" id="select">
+                <option value="1">option1</option>
+                <option value="2" selected="selected">option2</option>
+                <option value="3">option3</option>
+            </select>
+
+
+        </form>
+    </body>
+</html>
