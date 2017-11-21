@@ -1,0 +1,131 @@
+@font-face {
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+}
+
+
+
+  body{
+    background: #4f5456 url('../img1/unsplash.png') no-repeat right;
+    background-size: cover;
+
+}
+
+form{
+    height: 530px;
+    width: 340px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 2px;
+
+}
+
+.headF{
+    background-color: #efe4aa;
+    height: 75px;
+    box-sizing: border-box;
+    padding: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.headF > *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo{
+    float: left;
+}
+
+.logo h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    margin: 0;
+    color: #65756f;
+}
+
+.logo h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight:400;
+    margin: 0;
+    color: #b8b393;
+}
+
+.headF h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight:400;
+    margin: 0;
+    float: right;
+    color: #65756f;
+    padding-bottom: 45px;
+}
+
+.bodyF{
+    box-sizing: border-box;
+    padding: 45px 30px 0;
+}
+
+.mainForm input{
+    height: 40px;
+}
+
+.cNumber{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.date input{
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.month{
+    margin-top: 5px;
+    margin-bottom: 28px;
+    width: 175px;
+}
+
+.year{
+    width: 95px;
+}
+
+
+.cvv *{
+    display: inline-block;
+}
+
+.cvv input{
+    width: 95px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.cvv span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight:400;
+}
+
+hr{
+    margin: 0;
+}
+
+.pay{
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+    background: #26b167;
+}
+
+.cancel{
+    display: block;
+    margin: 15px auto 0;
+    text-align: center;
+    text-decoration: none;
+    color: #65756f;
+}
+
+
