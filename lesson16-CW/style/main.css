@@ -1,0 +1,36 @@
+.main{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    height: 540px;
+    width: 360px;
+    border: 1px solid black;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.double-item{
+    justify-content: flex-end;
+    width: 704px;
+}
+
+img{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.ava{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background:  darkred;
+    border-radius: 50%;
+    align-self: flex-end;
+}
