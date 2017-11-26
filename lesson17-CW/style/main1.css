@@ -1,10 +1,10 @@
-html *{
+html * {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-body{
+body {
     margin: 0;
 }
 
@@ -24,7 +24,7 @@ body{
     fill: #ffffff;
 }
 
-#footer-logosvg{
+#footer-logosvg {
     width: 20px;
     height: 20px;
 }
@@ -45,23 +45,24 @@ body{
     fill: #3c3c3c;
 }
 
-.img-svg{
+.img-svg {
     width: 20px;
     height: 20px;
 }
 
-#scroll{
+#scroll {
     stroke: #ffffff;
     stroke-width: 2px;
     fill: white;
 }
 
-.page1{
+.page1 {
     background: url("../img/hero-bg.png") no-repeat;
+    background-size: cover;
     box-sizing: border-box;
 }
 
-.article1{
+.article1 {
     width: 53vw;
     height: 100vh;
     text-align: center;
@@ -69,19 +70,19 @@ body{
     background-attachment: scroll;
 }
 
-.article1 *{
+.article1 * {
     display: block;
     background: none;
 }
 
-.icon1{
+.icon1 {
     width: 72px;
     height: 72px;
     margin: 0 auto;
     padding: 240px 0 90px;
 }
 
-.icon{
+.icon {
     width: 81px;
     height: 81px;
     display: block;
@@ -90,7 +91,7 @@ body{
     margin: 0 auto;
 }
 
-h1{
+h1 {
     font-family: "Lato Bold", sans-serif;
     font-size: 54px;
     color: white;
@@ -98,7 +99,7 @@ h1{
     text-transform: uppercase;
 }
 
-.page1 span{
+.page1 span {
     font-family: "Lato Regular", sans-serif;
     font-size: 14px;
     color: white;
@@ -106,24 +107,24 @@ h1{
     padding-bottom: 240px;
 }
 
-.icon2{
+.icon2 {
     width: 27px;
     height: 40px;
     margin: 0 auto;
 }
 
-.part1{
+.part1 {
     background: white;
     height: 58vh;
 }
 
-.part2{
+.part2 {
     height: 42vh;
     background: url("../img/services.png") no-repeat;
     background-size: cover;
 }
 
-.article2{
+.article2 {
     height: 58vh;
     width: 900px;
     box-sizing: border-box;
@@ -134,7 +135,7 @@ h1{
     position: relative;
 }
 
-.article3{
+.article3 {
     height: 42vh;
     width: 900px;
     box-sizing: border-box;
@@ -146,7 +147,7 @@ h1{
     position: relative;
 }
 
-h2{
+h2 {
     font-family: "Lato Bold", sans-serif;
     font-size: 34px;
     padding-bottom: 45px;
@@ -158,29 +159,44 @@ h2{
     left: 250px;
 }
 
-.article3 h2{
+.article3 h2 {
     background: none;
 }
 
-.border1{
+.border1 {
     border: 2px solid black;
 }
 
-.border2{
+.border2 {
     border: 2px solid white;
     border-top: none;
+    display: block;
+    position: relative;
 }
 
-.border2:before{
-
+.border2:before {
+    display: block;
+    width: 250px;
+    border: 1px solid white;
+    content: "";
 }
 
-.page3{
+.border2:after {
+    display: block;
+    width: 250px;
+    border: 1px solid white;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.page3 {
     height: 130vh;
     background: white;
 }
 
-.article4{
+.article4 {
     width: 900px;
     height: 1180px;
     border: 2px solid black;
@@ -189,7 +205,7 @@ h2{
     text-align: center;
 }
 
-.article4 h1{
+.article4 h1 {
     color: black;
     position: relative;
     top: -40px;
@@ -199,18 +215,50 @@ h2{
     background: white;
 }
 
-.article4 h3{
+.article4 h3 {
     font-family: "Lato Bold", sans-serif;
     color: #696969;
     padding-bottom: 45px;
 }
 
-.article4 span{
+.article4 span {
     font-size: 14px;
     font-family: "Lato Regular", sans-serif;
     display: block;
 
     line-height: 25px;
+}
+
+
+.page4{
+    height:85vh;
+}
+
+footer{
+    height: 15vh;
+    position: relative;
+}
+
+footer .article7{
+    position: relative;
+    top: 50px;
+}
+
+footer .icon{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+footer *{
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+footer span{
+    vertical-align: middle;
+    margin-bottom: 35px;
+    margin-left: 40px;
 }
 
 
