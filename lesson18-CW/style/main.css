@@ -46,10 +46,17 @@ header{
 }
 
 header .content-inner{
+<<<<<<< HEAD
     padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content:space-between;
+=======
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 50px;
+>>>>>>> origin/master
 }
 
 
@@ -94,6 +101,11 @@ header ul li a:hover{
 
 a {
     text-decoration: none;
+<<<<<<< HEAD
+=======
+    color: #2a2a2a;
+    font-weight:bold;
+>>>>>>> origin/master
 }
 
 #main-section {
@@ -111,6 +123,16 @@ a {
 
 }
 
+<<<<<<< HEAD
+=======
+.section-text h2{
+    font-family: Raleway, sans-serif;
+    font-weight:bold;
+    font-size: 60px;
+    color: #2a2a2a;
+}
+
+>>>>>>> origin/master
 #main-section > .content-inner {
     min-height: 100vh;
     padding-top: 56px;
