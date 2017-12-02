@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+}
+
+h2{
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.content-inner {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+header{
+    height: 56px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+header .content-inner{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+header ul {
+    padding: 0px;
+    margin: 0;
+
+}
+
+ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header ul li {
+    display: inline-block;
+    float: left;
+}
+
+header ul li:hover{
+    border-top: 1px solid red;
+}
+
+#logo {
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#main-section {
+
+    background: #f9f8fb url("../img/img1.png") right center/cover no-repeat;
+    margin: 0 auto;
+}
+
+#main-section .section-text {
+    width: 33.333%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#main-section > .content-inner {
+    min-height: 100vh;
+    padding-top: 56px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+
+}
+
+.section-text a {
+    display: block;
+    width: 200px;
+    height: 55px;
+    /*background: #ff6033;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*color: white;*/
+    /*text-transform: uppercase;*/
+}
+
+.button{
+    background: #ff6033;
+    min-height: 55px;
+    line-height: 55px;
+    max-width: 200px;
+    text-align: center;
+    align-self: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+}
+
+.button:hover{
+    opacity: 0.7;
+}
+
+#scroll{
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#section-about {
+    background: #00b2b2;
+}
+
+#section-about .content-inner{
+    min-height: 500px;
+    background: url("../img/bgsection2.png") no-repeat;
+    background-size: contain;
+    padding-top: 140px;
+}
+
+#section-about .section-text{
+    max-width: 500px;
+    float: right;
+    color: #ffffff;
+}
+
+.section-text p{
+    margin: 15px 0 23px;
+}
+
+#section-services{
+    background: #70bfff;
+}
+
+#section-services .content-inner{
+    min-height: 790px;
+    background: url("../img/section3bg.png") no-repeat right;
+    background-size: contain;
+    padding: 180px 20px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-button{
+    width: 400px;
+    height: 100px;
+    background: #ffffff;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.service-button:after{
+    content: url("../img/b1icon.svg");
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+#section-gallery{
+    background: yellow;
+}
+
+#section-gallery .content-inner{
+    height: 1500px;
+}
+
+[class^='row-']:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.col, [class^='col-']{
+    float: left;
+    min-height: 50px;
+    box-sizing: border-box;
+    padding: 15px;
+    word-wrap: break-word;
+}
+
+.col  > [class^='row-'],
+[class^='col-'] > [class^='row-']{
+    margin: -15px;
+}
+
+.row-2 .col{
+    width: 50%;
+}
+
+.row-3 .col{
+    width: 33.33%;
+}
+
+.row-12 .col{
+    width: 8.333%;
+}
+
+.row-12 .col-2{
+    width: 16.65%;
+}
+
+.row-12 .col-3{
+    width: 25%;
+}
+.row-12 .col-4{
+    width: 33.33%;
+}
+
+.row-12 .col-5{
+    width: 41.67%;
+}
+
+.row-12 .col-6{
+    width: 50%;
+}
+.row-12 .col-7{
+    width: 58.33%;
+}
+.row-12 .col-8{
+    width: 66.67%;
+}
+
+.row-12 .col-9{
+    width: 75%;
+}
+
+.row-12 .col-10{
+    width: 83.33%;
+}
+
+.row-12 .col-11{
+    width: 91.66%;
+}
+
+.row-12 .col-12{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
