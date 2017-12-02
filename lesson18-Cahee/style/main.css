@@ -1,0 +1,581 @@
+@font-face {
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,700');
+}
+
+html p {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #262626;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: #000000;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding-top: 35px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    max-width: 200px;
+    min-height: 55px;
+    border-radius: 3px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 55px;
+    align-self: flex-start;
+    padding: 0 20px;
+}
+
+/* front page */
+
+#sa-block1 {
+    background-color: #f9f8fb;
+}
+
+.sa-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#sa-block1 .sa-container {
+    height: 100vh;
+    background: url("../img/block1Bg.png") no-repeat right;
+    background-size: cover;
+    position: relative;
+}
+
+.block1-header {
+    height: 110px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+.header-menu {
+    float: right;
+}
+
+.block1-header ul li {
+    display: inline-block;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    line-height: 25px;
+
+}
+
+.block1-header ul li a {
+    color: #262626;
+}
+
+.block1-header ul li:hover {
+    border-top: 2px solid red;
+}
+
+.block1-text {
+    width: 350px;
+    height: 240px;
+    margin-top: 250px;
+}
+
+.block1-text p {
+    font-weight: normal;
+    padding-bottom: 35px;
+}
+
+.block1-button {
+    background: red;
+}
+
+.block1-footer {
+    text-align: center;
+}
+
+#scroll {
+    width: 30px;
+    height: 45px;
+    position: absolute;
+    bottom: 50px;
+}
+
+/* about us */
+
+#sa-block2 {
+    background: #00bcbc;
+}
+
+#sa-block2 .sa-container {
+    height: 700px;
+    background: url("../img/block2Bg.png") no-repeat left;
+    background-size: contain;
+    padding-top: 170px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.block2-text {
+    width: 500px;
+    height: 300px;
+    float: right;
+}
+
+.block2-text h2 {
+    color: #ffffff;
+}
+
+/* our services */
+
+#sa-block3 {
+    background: #70bfff;
+}
+
+#sa-block3 .sa-container {
+    height: 790px;
+    background: url("../img/block3Bg.png") no-repeat right;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block3-button a {
+    text-decoration: none;
+    width: 400px;
+    height: 100px;
+    display: block;
+    background: #eeeeee;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 0;
+}
+
+.block3-text h2 {
+    color: #ffffff;
+}
+
+.block3-button a:hover {
+    opacity: 0.5;
+}
+
+.block3-button span {
+    display: inline-block;
+    font-size: 16px;
+    color: #333333;
+}
+
+.block3-button span:first-child {
+    width: 300px;
+    padding: 0 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.block3-button .img {
+    height: 100px;
+    width: 99px;
+    box-sizing: border-box;
+    border-left: 1px solid #262626;
+    vertical-align: middle;
+}
+
+.i1 {
+    background: url("../img/icon1.svg") no-repeat center;
+    background-size: 50%;
+}
+
+.i2 {
+    background: url("../img/icon2.svg") no-repeat center;
+    background-size: 50%;
+}
+
+.i3 {
+    background: url("../img/icon3.svg") no-repeat center;
+    background-size: 50%;
+}
+
+.i4 {
+    background: url("../img/icon4.svg") no-repeat center;
+    background-size: 50%;
+}
+
+/* gallery */
+
+#sa-block4 {
+    background: #ffe92f;
+}
+
+#sa-block4 .sa-container {
+    height: 1530px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+.block4-text {
+    width: 570px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.block4-text h2 {
+    color: #000000;
+}
+
+.gallery-grid {
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+[class^='row-']:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.col, [class^='col-'] {
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+    word-wrap: break-word;
+}
+
+.col > [class^='row-'], [class^='col-'] > [class^='row-'] {
+    margin: -15px;
+}
+
+.row-12 .col {
+    width: 8.333%;
+}
+
+.row-12 .col-2 {
+    width: 16.65%;
+}
+
+.row-12 .col-3 {
+    width: 25%;
+}
+
+.row-12 .col-4 {
+    width: 33.333%;
+}
+
+.row-12 .col-5 {
+    width: 41.67%;
+}
+
+.row-12 .col-6 {
+    width: 50%;
+}
+
+.row-12 .col-7 {
+    width: 58.33%;
+}
+
+.row-12 .col-8 {
+    width: 66.6%;
+}
+
+.row-12 .col-9 {
+    width: 75%;
+}
+
+.row-12 .col-10 {
+    width: 83.333%;
+}
+
+.row-12 .col-11 {
+    width: 91.66%;
+}
+
+.row-12 .col-12 {
+    width: 100%;
+}
+
+.gallery-button {
+    background: #5585a2;
+}
+
+/* subscribe*/
+.sa-block5 {
+    background: #ffffff;
+}
+
+#sa-block5 .sa-container {
+    height: 500px;
+    background: url("../img/block5Bg.png") no-repeat right;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 140px;
+}
+
+.block5-text {
+    width: 540px;
+    height: 120px;
+    padding-bottom: 50px;
+}
+
+form input {
+    width: 540px;
+    height: 55px;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+form input:last-child {
+    width: 170px;
+    height: 55px;
+    border: none;
+    margin-left: 50px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #96b92c;
+}
+
+/* blog */
+
+#sa-block6 {
+    background: #b07cf7;
+}
+
+#sa-block6 .sa-container {
+    height: 825px;
+    padding-top: 100px;
+}
+
+.block6-text {
+    height: 190px;
+    width: 570px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.block6-text h2 {
+    color: #ffffff;
+}
+
+.blog-cont {
+    height: 330px;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+.blog-button {
+    margin-top: 100px;
+    background: red;
+}
+
+/*_____________________________________________________________ */
+
+.row-3 > div {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.row-3:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.post {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.post:before {
+    content: '';
+    padding-top: 85%;
+    display: block;
+}
+
+.post-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    justify-content: space-between;
+    color: white;
+}
+
+.date {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-right: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 31px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 21px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin: 25px;
+}
+
+.date span {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.post-info-bottom {
+    height: 50%;
+    padding: 20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+54,0.65+99 */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 54%, rgba(0, 0, 0, 0.65) 99%, rgba(0, 0, 0, 0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 54%, rgba(0, 0, 0, 0.65) 99%, rgba(0, 0, 0, 0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 54%, rgba(0, 0, 0, 0.65) 99%, rgba(0, 0, 0, 0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0); /* IE6-9 */
+}
+
+/*  contact*/
+
+#sa-block7 {
+    background: url("../img/block7Bg.png") no-repeat;
+    background-size: cover;
+}
+
+#sa-block7 .sa-container {
+    height: 825px;
+    padding-top: 100px;
+}
+
+.block7-text {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.contact-form {
+    width: 500px;
+    height: 450px;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    background: #00c4c4;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+    box-sizing: border-box;
+    opacity: 0.7;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    opacity: 1;
+}
+
+.sub-contact {
+    position: absolute;
+    top: 480px;
+    right: 0;
+    background: #b91f2d;
+}
+
+.block7-contacts {
+    width: 500px;
+    height: 450px;
+    float: left;
+    padding-left: 150px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.con {
+    margin-bottom: 10px;
+}
+
+.con span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: #000000;
+}
+
+footer * {
+    display: inline-block;
+}
+
+footer {
+    height: 90px;
+    background: #262626;
+
+}
+
+footer .sa-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 90px;
+}
+
+footer a {
+    color: red;
+}
+
+
+
+
+
