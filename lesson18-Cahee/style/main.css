@@ -154,7 +154,7 @@ a {
 #sa-block2 .sa-container {
     height: 700px;
     background: url("../img/block2Bg.png") no-repeat left;
-    background-size: contain;
+    background-size: 50%;
     padding-top: 170px;
     box-sizing: border-box;
     color: #ffffff;
@@ -179,10 +179,10 @@ a {
 #sa-block3 .sa-container {
     height: 790px;
     background: url("../img/block3Bg.png") no-repeat right;
-    background-size: contain;
+    background-size: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
