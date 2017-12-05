@@ -154,7 +154,7 @@ a {
 #sa-block2 .sa-container {
     height: 700px;
     background: url("../img/block2Bg.png") no-repeat left;
-    background-size: 50%;
+    background-size: contain;
     padding-top: 170px;
     box-sizing: border-box;
     color: #ffffff;
@@ -179,7 +179,7 @@ a {
 #sa-block3 .sa-container {
     height: 790px;
     background: url("../img/block3Bg.png") no-repeat right;
-    background-size: 50%;
+    background-size: contain;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -351,7 +351,7 @@ a {
 #sa-block5 .sa-container {
     height: 500px;
     background: url("../img/block5Bg.png") no-repeat right;
-    background-size: cover;
+    background-size: contain;
     box-sizing: border-box;
     padding-top: 140px;
 }
@@ -480,6 +480,9 @@ form input:last-child {
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 54%, rgba(0, 0, 0, 0.65) 99%, rgba(0, 0, 0, 0.65) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 54%, rgba(0, 0, 0, 0.65) 99%, rgba(0, 0, 0, 0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0); /* IE6-9 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 /*  contact*/
@@ -560,7 +563,7 @@ footer * {
 
 footer {
     height: 90px;
-    background: #262626;
+    background: #454545;
 
 }
 

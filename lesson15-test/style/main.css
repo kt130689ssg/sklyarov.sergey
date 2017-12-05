@@ -3,7 +3,10 @@
     padding-left: 20px;
 }
 
-.ba-grid{
+[class^='ba-grid']:after{
+    display: block;
+    content: '';
+    clear: both;
 
 }
 
@@ -15,6 +18,8 @@
     width: 100%;
     background: green;
     text-align: center;
+    box-sizing: border-box;
+    margin: 10px;
 }
 .ba-width-1-1{
     box-sizing: border-box;
@@ -88,4 +93,14 @@
     margin: 1%;
 }
 
+.test{
+    height: 100px;
+    overflow: auto;
+}
+
+.ba-width-1-2 > .ba-grid{
+    background: #ffffff;
+    margin: 10px;
+    box-sizing: border-box;
+}
 
