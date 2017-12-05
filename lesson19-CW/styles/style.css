@@ -2978,7 +2978,7 @@ header {
     color: #898f8f;
     font-size: 18px; }
   header h1 {
-    color: #ffcc00;
+    color: #e4b335;
     font-size: 60px; }
 
 .slider {
@@ -2987,8 +2987,8 @@ header {
     content: '';
     display: block;
     width: 40%;
-    height: 1px;
-    background: #ffcc00;
+    height: 2px;
+    background: #e4b335;
     position: absolute;
     top: 0;
     left: 50%;
@@ -2996,22 +2996,22 @@ header {
   .slider:after {
     font-family: 'ionicons';
     content: "";
-    color: #ffcc00;
+    color: #e4b335;
     position: absolute;
     display: block;
-    height: 20px;
-    width: 20px;
+    height: 60px;
+    width: 40px;
     text-align: center;
     line-height: 20px;
     background: #ffffff;
     top: -10px;
     left: 50%;
-    margin-left: -10px; }
+    margin-left: -20px; }
   .slider-arrows a {
     position: absolute;
     top: 50%;
     text-decoration: none;
-    color: #ffcc00; }
+    color: #e4b335; }
     .slider-arrows a.arrow-left {
       left: 0; }
     .slider-arrows a.arrow-right {
@@ -3021,14 +3021,14 @@ header {
     float: left;
     height: 560px; }
   .slider .slide-img {
-    border-right: 1px solid #ffcc00;
+    border-right: 1px solid #e4b335;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
     .slider .slide-img-wrapper {
       width: 418px;
       height: 417px;
-      border: 1px solid #ffcc00;
+      border: 1px solid #e4b335;
       margin: 35px auto;
       padding: 13px;
       -webkit-box-sizing: border-box;
@@ -3036,7 +3036,7 @@ header {
       box-sizing: border-box;
       position: relative; }
       .slider .slide-img-wrapper img {
-        border: 1px solid #ffcc00;
+        border: 1px solid #e4b335;
         position: relative;
         z-index: 1; }
       .slider .slide-img-wrapper:before, .slider .slide-img-wrapper:after {
@@ -3058,29 +3058,164 @@ header {
     content: '';
     display: block;
     clear: both; }
+  .slider .slide-text {
+    box-sizing: border-box;
+    padding-top: 40px;
+    text-align: center; }
+    .slider .slide-text-name {
+      color: #696969;
+      font-size: 36px; }
+    .slider .slide-text-name:after {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 1px;
+      background: #e4b335;
+      margin-left: 50%;
+      transform: translateX(-50px);
+      margin-top: 20px; }
+    .slider .slide-text-profession {
+      font-size: 24px;
+      color: #696969; }
+    .slider .slide-text-socBlock {
+      padding: 0; }
+    .slider .slide-text-socLink {
+      display: inline-block; }
+    .slider .slide-text-socLink:hover {
+      opacity: 0.5; }
+    .slider .slide-text-infoBlock {
+      color: #696969;
+      margin: 0 50px;
+      font-size: 14px;
+      line-height: 24px; }
+    .slider .slide-text-lineEnd {
+      height: 1px;
+      width: 60px;
+      background: #e4b335;
+      position: relative;
+      margin-left: 50%;
+      transform: translateX(-30px);
+      margin-top: 20px; }
+    .slider .slide-text-lineEnd:before {
+      display: block;
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 20px;
+      background: #e4b335;
+      transform: translateX(-30px); }
+    .slider .slide-text-lineEnd:after {
+      display: block;
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 20px;
+      background: #e4b335;
+      transform: translateX(70px); }
+    .slider .slide-text-box {
+      height: 35px;
+      width: 130px;
+      border: 1px solid #e4b335;
+      margin: 20px auto;
+      font-size: 0;
+      position: relative;
+      z-index: 0; }
+    .slider .slide-text-box:before {
+      display: block;
+      content: '';
+      background: #ffffff;
+      height: 25px;
+      width: 132px;
+      transform: translateX(-1px);
+      margin-top: 5px;
+      position: absolute;
+      z-index: 1; }
+    .slider .slide-text-box:after {
+      display: block;
+      content: '';
+      background: #ffffff;
+      height: 37px;
+      width: 50px;
+      margin-left: 40px;
+      transform: translateY(-1px);
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 0; }
+    .slider .slide-text-profile {
+      display: block;
+      height: 24px;
+      width: 120px;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: 1px solid #e4b335;
+      margin: 5px auto;
+      font-size: 14px;
+      color: #696969;
+      position: relative;
+      z-index: 3; }
+      .slider .slide-text-profile span {
+        line-height: 25px; }
+    .slider .slide-text-profile:hover {
+      background: #e4b335; }
 
-.button {
-  height: 30px;
-  line-height: 30px;
+.listView {
+  width: 100%;
   display: inline-block;
-  padding: 0 15px;
-  border-radius: 15px;
-  background: darkblue;
-  color: #ffffff;
-  text-decoration: none; }
-  .button:hover {
-    background: #00000c; }
+  text-align: center;
+  font-size: 0; }
+  .listView-item {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #e4b335;
+    display: inline-block;
+    margin: 30px 10px; }
+  .listView-item:hover {
+    background: #ffffff;
+    border: 1px solid red;
+    box-sizing: content-box; }
 
-.link {
-  height: 30px;
-  line-height: 30px;
-  display: inline-block;
-  padding: 0 15px;
-  border-radius: 15px;
-  background: darkred;
-  color: #ccc;
-  text-decoration: none; }
-  .link:hover {
-    background: #0c0000; }
+.buttonBar {
+  box-sizing: border-box;
+  padding: 30px;
+  background: #f2ffdd;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto; }
+  .buttonBar .button {
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    padding: 0 15px;
+    border-radius: 15px;
+    background: darkblue;
+    color: #ffffff;
+    text-decoration: none; }
+    .buttonBar .button:hover {
+      background: #00000c; }
+  .buttonBar .link {
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    padding: 0 15px;
+    border-radius: 15px;
+    background: darkred;
+    color: #ccc;
+    text-decoration: none; }
+    .buttonBar .link:hover {
+      background: #0c0000; }
+  .buttonBar .green {
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    padding: 0 15px;
+    border-radius: 15px;
+    background: green;
+    color: #ffffff;
+    text-decoration: none; }
+    .buttonBar .green:hover {
+      background: #000100; }
 
 /*# sourceMappingURL=style.css.map */
